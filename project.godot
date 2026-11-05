@@ -1,0 +1,20 @@
+; Engine configuration file.
+; Projeto Godot 4.3 - Skate 3D (protótipo)
+
+config_version=5
+
+[application]
+
+config/name="Skate 3D"
+run/main_scene="res://main.tscn"
+config/features=PackedStringArray("4.3", "Mobile")
+
+[display]
+
+window/size/viewport_width=1280
+window/size/viewport_height=720
+window/handheld/orientation=0
+
+[rendering]
+
+renderer/rendering_method="mobile"
